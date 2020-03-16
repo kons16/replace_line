@@ -2,7 +2,8 @@
 
 
 def replace_line(input_file_name, output_file_name, replace_line, replace_str):
-    """ 行を指定された文字に書き換える """
+    """ Replace line with specified characters """
+
     f = open(input_file_name, "r")
     fw = open(output_file_name, "w")
 
