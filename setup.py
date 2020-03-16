@@ -12,14 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='replace_line',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='Replace line with specified characters',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='kons16',
+    author_email='river.field.1126@gmail.com',
+    url='https://github.com/kons16/replace_line',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
-
