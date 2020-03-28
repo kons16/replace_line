@@ -11,7 +11,7 @@ def replace_line(input_file_name, output_file_name, replace_line, replace_str):
     for line in lines:
         line = line.rstrip()
 
-        if replace_line == "blank":
+        if replace_line == "":
             if line != "":
                 fw.write(line + "\n")
             elif line == "" and replace_str is not None:
