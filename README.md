@@ -1,6 +1,6 @@
 replace_line
 ========================
-<B>replace_line</B>はテキストファイルのある特定行を指定した文字列に置き換えるpythonパッケージです。
+<B>replace_line</B> はテキストファイル内の特定行を、指定した文字列に置き換えるpythonパッケージです。
 
 ```
 replace_line(input_file_name, output_file_name, replace_line, replace_str)  
