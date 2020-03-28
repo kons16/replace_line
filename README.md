@@ -1,5 +1,6 @@
 replace_line
 ========================
+<B>replace_line</B>はテキストファイルのある特定行を指定した文字列に置き換えるpythonパッケージです。
 
 ```
 replace_line(input_file_name, output_file_name, replace_line, replace_str)  
@@ -14,3 +15,14 @@ replace_str -- 書き換えたい文字
 
 空行を削除したい場合  
 `replace_line("input.txt", "output.txt", "", None)`
+
+
+## 環境構築
+1. `git clone https://github.com/kons16/replace_line.git`
+1. `cd replace_line`
+1. `python setup.py develop`
+1. `input.txt`を用意した後で、以下を実行
+```
+>> from replace_line.replace_line import replace_line
+>> replace_line("input.txt", "output.txt", "", None)
+```
