@@ -23,6 +23,6 @@ replace_str -- 書き換える文字列
 1. `python setup.py develop`
 1. `input.txt`を用意した後で、以下を実行
 ```
->> from replace_line.replace_line import replace_line
+>> from replace_line import replace_line
 >> replace_line("input.txt", "output.txt", "", None)
 ```
